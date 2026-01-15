@@ -15,3 +15,14 @@ nohup.out
 .idea
 inference/
 test.py
+
+# local training artifacts
+output/
+*.pdparams
+*.pdopt
+*.pdstates
+*.tgz
+*.log
+
+# datasets
+/data/
