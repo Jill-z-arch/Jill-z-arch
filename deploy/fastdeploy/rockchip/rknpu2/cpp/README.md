@@ -1,1 +1,0 @@
-../../../../../docs/zh_CN/fastdeploy/rockchip/rknpu2/cpp/README.md

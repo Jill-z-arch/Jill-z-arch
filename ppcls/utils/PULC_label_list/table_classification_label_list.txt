@@ -1,2 +1,0 @@
-0 wired_table
-1 wireless_table

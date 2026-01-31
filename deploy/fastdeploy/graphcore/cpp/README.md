@@ -1,1 +1,0 @@
-../../../../docs/zh_CN/fastdeploy/graphcore/cpp/README.md

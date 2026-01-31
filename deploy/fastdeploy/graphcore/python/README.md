@@ -1,1 +1,0 @@
-../../../../docs/zh_CN/fastdeploy/graphcore/python/README.md
