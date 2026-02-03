@@ -1,0 +1,12 @@
+---
+description: One-shot fix (manual). Use only when you want a full solution.
+alwaysApply: false
+---
+Goal: solve the task in one pass with minimal tokens.
+
+Output rules:
+- Provide a single best solution (no alternatives).
+- Provide only minimal diff (or patch). No unchanged code.
+- After the diff, add a short verification checklist (max 5 bullets).
+- Ask at most ONE question only if absolutely blocked; otherwise assume sensible defaults.
+- No explanations unless asked.

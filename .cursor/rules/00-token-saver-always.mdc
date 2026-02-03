@@ -1,0 +1,8 @@
+---
+description: Token saver (always)
+alwaysApply: true
+---
+- Start with the conclusion.
+- Output only the minimal diff.
+- Do not repeat unchanged code.
+- If no changes needed, output exactly: `No change.`
