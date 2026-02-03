@@ -1,0 +1,107 @@
+[Info] device: cuda
+[Info] sparge_attn: ON | sparge_topk=64
+[Info] agent_attn: ON | agent_tokens=16 | heads=8
+[Info] attn_order: sparge_then_agent
+[Info] cfg saved: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/run_config.json
+[Info] path_check: 5/5 exist for first 5 samples
+[Train][Epoch 1/100][Iter 0/88] lr=0.025000, loss=1.40067, top1=0.09375, top2=0.34375, top4=1.00000
+[Train][Epoch 1/100][Iter 20/88] lr=0.025000, loss=1.15684, top1=0.75000, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 40/88] lr=0.025000, loss=0.36770, top1=0.81250, top2=0.90625, top4=1.00000
+[Train][Epoch 1/100][Iter 60/88] lr=0.025000, loss=0.15613, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 80/88] lr=0.025000, loss=0.17640, top1=0.90625, top2=1.00000, top4=1.00000
+[Info] epoch_time=4944.6s
+[Val][Epoch 1/100] loss=1.39848, top1=0.66433, top2=0.84129, top4=1.00000, time=1213.3s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.66433)
+[Train][Epoch 2/100][Iter 0/88] lr=0.025000, loss=0.38521, top1=0.87500, top2=0.93750, top4=1.00000
+[Train][Epoch 2/100][Iter 20/88] lr=0.025000, loss=0.29261, top1=0.90625, top2=0.96875, top4=1.00000
+[Train][Epoch 2/100][Iter 40/88] lr=0.025000, loss=0.10972, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 2/100][Iter 60/88] lr=0.025000, loss=0.72563, top1=0.81250, top2=0.96875, top4=1.00000
+[Train][Epoch 2/100][Iter 80/88] lr=0.025000, loss=0.21519, top1=0.93750, top2=1.00000, top4=1.00000
+[Info] epoch_time=4677.1s
+[Val][Epoch 2/100] loss=1.65397, top1=0.71770, top2=0.83848, top4=1.00000, time=1303.1s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.71770)
+[Train][Epoch 3/100][Iter 0/88] lr=0.025000, loss=0.04575, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 3/100][Iter 20/88] lr=0.025000, loss=0.24293, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 3/100][Iter 40/88] lr=0.025000, loss=0.22812, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 3/100][Iter 60/88] lr=0.025000, loss=0.20899, top1=0.93750, top2=0.96875, top4=1.00000
+[Train][Epoch 3/100][Iter 80/88] lr=0.025000, loss=0.32382, top1=0.93750, top2=0.96875, top4=1.00000
+[Info] epoch_time=5114.3s
+[Val][Epoch 3/100] loss=0.54289, top1=0.83848, top2=0.96910, top4=1.00000, time=1282.2s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.83848)
+[Train][Epoch 4/100][Iter 0/88] lr=0.025000, loss=0.07257, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 4/100][Iter 20/88] lr=0.025000, loss=0.03038, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 4/100][Iter 40/88] lr=0.025000, loss=0.10441, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 4/100][Iter 60/88] lr=0.025000, loss=0.32259, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 4/100][Iter 80/88] lr=0.025000, loss=0.14320, top1=0.93750, top2=1.00000, top4=1.00000
+[Info] epoch_time=5105.8s
+[Val][Epoch 4/100] loss=0.21426, top1=0.91994, top2=0.99719, top4=1.00000, time=1369.5s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.91994)
+[Train][Epoch 5/100][Iter 0/88] lr=0.025000, loss=0.05327, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 5/100][Iter 20/88] lr=0.025000, loss=0.09339, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 5/100][Iter 40/88] lr=0.025000, loss=0.18812, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 5/100][Iter 60/88] lr=0.025000, loss=0.21579, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 5/100][Iter 80/88] lr=0.025000, loss=0.41525, top1=0.93750, top2=1.00000, top4=1.00000
+[Info] epoch_time=5054.2s
+[Val][Epoch 5/100] loss=1.17544, top1=0.62640, top2=0.87079, top4=1.00000, time=1297.0s
+[Train][Epoch 6/100][Iter 0/88] lr=0.025000, loss=0.09555, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 20/88] lr=0.025000, loss=0.11815, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 40/88] lr=0.025000, loss=0.10300, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 60/88] lr=0.025000, loss=0.19307, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 80/88] lr=0.025000, loss=0.47290, top1=0.84375, top2=1.00000, top4=1.00000
+[Info] epoch_time=5008.0s
+[Val][Epoch 6/100] loss=1.26669, top1=0.70225, top2=0.92837, top4=1.00000, time=1282.8s
+[Train][Epoch 7/100][Iter 0/88] lr=0.025000, loss=0.02453, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 20/88] lr=0.025000, loss=0.09012, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 40/88] lr=0.025000, loss=0.12573, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 60/88] lr=0.025000, loss=0.06220, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 80/88] lr=0.025000, loss=0.04531, top1=1.00000, top2=1.00000, top4=1.00000
+[Info] epoch_time=5090.9s
+[Val][Epoch 7/100] loss=0.30759, top1=0.89466, top2=0.97472, top4=1.00000, time=1266.8s
+[Train][Epoch 8/100][Iter 0/88] lr=0.025000, loss=0.14880, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 20/88] lr=0.025000, loss=0.02389, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 40/88] lr=0.025000, loss=0.08909, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 60/88] lr=0.025000, loss=0.03692, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 80/88] lr=0.025000, loss=0.06289, top1=0.96875, top2=1.00000, top4=1.00000
+[Info] epoch_time=5025.3s
+[Val][Epoch 8/100] loss=0.28890, top1=0.92697, top2=0.98455, top4=1.00000, time=1301.0s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.92697)
+[Train][Epoch 9/100][Iter 0/88] lr=0.025000, loss=0.02402, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 20/88] lr=0.025000, loss=0.06227, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 40/88] lr=0.025000, loss=0.00427, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 60/88] lr=0.025000, loss=0.13898, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 80/88] lr=0.025000, loss=0.10948, top1=0.96875, top2=1.00000, top4=1.00000
+[Info] epoch_time=5151.1s
+[Val][Epoch 9/100] loss=0.80232, top1=0.75562, top2=0.95927, top4=1.00000, time=1268.5s
+[Train][Epoch 10/100][Iter 0/88] lr=0.025000, loss=0.07588, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 20/88] lr=0.025000, loss=0.16498, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 40/88] lr=0.025000, loss=0.03777, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 60/88] lr=0.025000, loss=0.01621, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 80/88] lr=0.025000, loss=0.14164, top1=0.93750, top2=1.00000, top4=1.00000
+[Info] epoch_time=5052.5s
+[Val][Epoch 10/100] loss=0.21680, top1=0.92978, top2=0.98876, top4=1.00000, time=1255.8s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.92978)
+[Train][Epoch 11/100][Iter 0/88] lr=0.025000, loss=0.01849, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 20/88] lr=0.025000, loss=0.01422, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 40/88] lr=0.025000, loss=0.20762, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 60/88] lr=0.025000, loss=0.09287, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 80/88] lr=0.025000, loss=0.00573, top1=1.00000, top2=1.00000, top4=1.00000
+[Info] epoch_time=5028.3s
+[Val][Epoch 11/100] loss=0.16733, top1=0.95927, top2=0.99860, top4=1.00000, time=1255.9s
+[Info] saved best: /mnt/synology/wen.zhou/2026.05/Sparge_Attention/output/best.pt (top1=0.95927)
+[Train][Epoch 12/100][Iter 0/88] lr=0.025000, loss=0.10325, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 20/88] lr=0.025000, loss=0.00651, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 40/88] lr=0.025000, loss=0.06101, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 60/88] lr=0.025000, loss=0.09507, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 80/88] lr=0.025000, loss=0.06917, top1=1.00000, top2=1.00000, top4=1.00000
+[Info] epoch_time=4967.5s
+[Val][Epoch 12/100] loss=0.44388, top1=0.84691, top2=0.97331, top4=1.00000, time=1239.2s
+[Train][Epoch 13/100][Iter 0/88] lr=0.025000, loss=0.24427, top1=0.93750, top2=0.96875, top4=1.00000
+[Train][Epoch 13/100][Iter 20/88] lr=0.025000, loss=0.00340, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 13/100][Iter 40/88] lr=0.025000, loss=0.12482, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 13/100][Iter 60/88] lr=0.025000, loss=0.00639, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 13/100][Iter 80/88] lr=0.025000, loss=0.00888, top1=1.00000, top2=1.00000, top4=1.00000
+[Info] epoch_time=4982.5s
+[Val][Epoch 13/100] loss=0.14463, top1=0.95506, top2=0.99298, top4=1.00000, time=1247.2s
+[Train][Epoch 14/100][Iter 0/88] lr=0.025000, loss=0.02276, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 14/100][Iter 20/88] lr=0.025000, loss=0.07194, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 14/100][Iter 40/88] lr=0.025000, loss=0.00556, top1=1.00000, top2=1.00000, top4=1.00000
