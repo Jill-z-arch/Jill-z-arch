@@ -1,0 +1,112 @@
+[Boot] 2026年 01月 24日 星期六 14:24:12 CST starting launcher
+[Meta] launcher=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/run_Rotate_to_Attend_tmux.sh
+[Meta] python_script=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/train_Rotate_to_Attend.py
+[Meta] image_root=/mnt/synology/wen.zhou/2026.01/dataset2/DATASET/Segmentation
+[Meta] train_txt=/mnt/synology/wen.zhou/2026.04/ds2_train_labeled.txt
+[Meta] val_txt=/mnt/synology/wen.zhou/2026.04/ds2_val_labeled.txt
+[Meta] output_dir=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output
+[Info] WORKDIR=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend
+[Info] CONDA=/home/wen.zhou/miniforge3/envs/py310_local
+[Info] LOG=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/logs_tmux/train_2026-01-24_142412.log
+[Info] OUT=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output
+[Meta] launcher=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/run_Rotate_to_Attend_tmux.sh
+[Meta] run_file=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/runs_tmux/run_2026-01-24_142412.sh
+[Meta] python_script=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/train_Rotate_to_Attend.py
+[Meta] image_root=/mnt/synology/wen.zhou/2026.01/dataset2/DATASET/Segmentation
+[Meta] train_txt=/mnt/synology/wen.zhou/2026.04/ds2_train_labeled.txt
+[Meta] val_txt=/mnt/synology/wen.zhou/2026.04/ds2_val_labeled.txt
+[Meta] saved_py=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output/train_Rotate_to_Attend_2026-01-24_142412.py
+[Meta] saved_sh=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output/run_Rotate_to_Attend_tmux_2026-01-24_142412.sh
+[Meta] cmd=python -u /mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/train_Rotate_to_Attend.py --image_root /mnt/synology/wen.zhou/2026.01/dataset2/DATASET/Segmentation --train_txt /mnt/synology/wen.zhou/2026.04/ds2_train_labeled.txt --val_txt /mnt/synology/wen.zhou/2026.04/ds2_val_labeled.txt --num_classes 4 --epochs 100 --batch_size 32 --num_workers 0 --lr 0.025 --momentum 0.9 --weight_decay 1e-4 --print_batch_step 20 --topk 1,2,4 --output_dir /mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output --seed 42 --skip_broken --pretrained --use_triplet_attn --triplet_kernel_size 7 --attn_order triplet_then_agent --use_agent_attn --agent_tokens 16 --agent_heads 8 --use_agent_bias --agent_bias_max_hw 32
+[Meta] python_script=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/train_Rotate_to_Attend.py
+[Meta] image_root=/mnt/synology/wen.zhou/2026.01/dataset2/DATASET/Segmentation
+[Meta] train_txt=/mnt/synology/wen.zhou/2026.04/ds2_train_labeled.txt
+[Meta] val_txt=/mnt/synology/wen.zhou/2026.04/ds2_val_labeled.txt
+[Meta] output_dir=/mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output
+[Info] cfg saved: /mnt/synology/wen.zhou/2026.05/Rotate_to_Attend/output/run_config.json
+[Info] path_check: 5/5 exist for first 5 samples
+[Info] device: cuda
+[Info] triplet_attn: ON | kernel=7 | no_spatial=False
+[Info] agent_attn: ON | agent_bias=ON | tokens=16 | heads=8
+[Info] attn_order: triplet_then_agent
+[Train][Epoch 1/100][Iter 0/88] lr=0.025000, loss=1.64291, top1=0.18750, top2=0.46875, top4=1.00000
+[Train][Epoch 1/100][Iter 20/88] lr=0.025000, loss=2.01068, top1=0.59375, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 40/88] lr=0.025000, loss=1.21031, top1=0.56250, top2=0.65625, top4=1.00000
+[Train][Epoch 1/100][Iter 60/88] lr=0.025000, loss=1.53385, top1=0.68750, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 80/88] lr=0.025000, loss=1.73705, top1=0.65625, top2=0.84375, top4=1.00000
+[Info] epoch_time=5126.0s
+[Val][Epoch 1/100] loss=11.70091, top1=0.43539, top2=0.63624, top4=1.00000
+[Train][Epoch 2/100][Iter 0/88] lr=0.025000, loss=1.97579, top1=0.59375, top2=0.71875, top4=1.00000
+[Train][Epoch 2/100][Iter 20/88] lr=0.025000, loss=1.08353, top1=0.65625, top2=0.87500, top4=1.00000
+[Train][Epoch 2/100][Iter 40/88] lr=0.025000, loss=0.65804, top1=0.81250, top2=0.96875, top4=1.00000
+[Train][Epoch 2/100][Iter 60/88] lr=0.025000, loss=0.64427, top1=0.90625, top2=0.96875, top4=1.00000
+[Train][Epoch 2/100][Iter 80/88] lr=0.025000, loss=0.50135, top1=0.78125, top2=0.93750, top4=1.00000
+[Info] epoch_time=5105.1s
+[Val][Epoch 2/100] loss=5.29735, top1=0.49157, top2=0.65871, top4=1.00000
+[Train][Epoch 3/100][Iter 0/88] lr=0.025000, loss=1.06178, top1=0.78125, top2=0.87500, top4=1.00000
+[Train][Epoch 3/100][Iter 20/88] lr=0.025000, loss=0.62150, top1=0.90625, top2=0.96875, top4=1.00000
+[Train][Epoch 3/100][Iter 40/88] lr=0.025000, loss=0.48875, top1=0.78125, top2=0.90625, top4=1.00000
+[Train][Epoch 3/100][Iter 60/88] lr=0.025000, loss=0.39442, top1=0.84375, top2=0.96875, top4=1.00000
+[Train][Epoch 3/100][Iter 80/88] lr=0.025000, loss=0.42829, top1=0.87500, top2=0.96875, top4=1.00000
+[Info] epoch_time=5151.8s
+[Val][Epoch 3/100] loss=0.76196, top1=0.80056, top2=0.92135, top4=1.00000
+[Train][Epoch 4/100][Iter 0/88] lr=0.025000, loss=0.58756, top1=0.81250, top2=0.96875, top4=1.00000
+[Train][Epoch 4/100][Iter 20/88] lr=0.025000, loss=0.59886, top1=0.81250, top2=0.90625, top4=1.00000
+[Train][Epoch 4/100][Iter 40/88] lr=0.025000, loss=0.44951, top1=0.87500, top2=0.96875, top4=1.00000
+[Train][Epoch 4/100][Iter 60/88] lr=0.025000, loss=0.22989, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 4/100][Iter 80/88] lr=0.025000, loss=0.50231, top1=0.81250, top2=0.93750, top4=1.00000
+[Info] epoch_time=5042.9s
+[Val][Epoch 4/100] loss=0.45565, top1=0.84972, top2=0.97191, top4=1.00000
+[Train][Epoch 5/100][Iter 0/88] lr=0.025000, loss=0.38215, top1=0.84375, top2=0.96875, top4=1.00000
+[Train][Epoch 5/100][Iter 20/88] lr=0.025000, loss=0.32227, top1=0.93750, top2=0.96875, top4=1.00000
+[Train][Epoch 5/100][Iter 40/88] lr=0.025000, loss=0.22438, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 5/100][Iter 60/88] lr=0.025000, loss=0.20805, top1=0.96875, top2=0.96875, top4=1.00000
+[Train][Epoch 5/100][Iter 80/88] lr=0.025000, loss=0.29684, top1=0.93750, top2=0.96875, top4=1.00000
+[Info] epoch_time=5091.4s
+[Val][Epoch 5/100] loss=1.16900, top1=0.76124, top2=0.92978, top4=1.00000
+[Train][Epoch 6/100][Iter 0/88] lr=0.025000, loss=0.18360, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 20/88] lr=0.025000, loss=0.41818, top1=0.87500, top2=0.93750, top4=1.00000
+[Train][Epoch 6/100][Iter 40/88] lr=0.025000, loss=0.39990, top1=0.84375, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 60/88] lr=0.025000, loss=0.33229, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 6/100][Iter 80/88] lr=0.025000, loss=0.23376, top1=0.93750, top2=1.00000, top4=1.00000
+[Info] epoch_time=5029.0s
+[Val][Epoch 6/100] loss=0.26075, top1=0.89607, top2=0.99157, top4=1.00000
+[Train][Epoch 7/100][Iter 0/88] lr=0.025000, loss=0.05687, top1=1.00000, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 20/88] lr=0.025000, loss=0.36824, top1=0.84375, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 40/88] lr=0.025000, loss=0.19935, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 7/100][Iter 60/88] lr=0.025000, loss=0.36633, top1=0.78125, top2=0.96875, top4=1.00000
+[Train][Epoch 7/100][Iter 80/88] lr=0.025000, loss=0.16159, top1=0.96875, top2=1.00000, top4=1.00000
+[Info] epoch_time=5128.7s
+[Val][Epoch 7/100] loss=0.79984, top1=0.75983, top2=0.92556, top4=1.00000
+[Train][Epoch 8/100][Iter 0/88] lr=0.025000, loss=0.37675, top1=0.84375, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 20/88] lr=0.025000, loss=0.20058, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 40/88] lr=0.025000, loss=0.11844, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 60/88] lr=0.025000, loss=0.16703, top1=0.84375, top2=1.00000, top4=1.00000
+[Train][Epoch 8/100][Iter 80/88] lr=0.025000, loss=0.06082, top1=1.00000, top2=1.00000, top4=1.00000
+[Info] epoch_time=5115.6s
+[Val][Epoch 8/100] loss=0.39113, top1=0.87640, top2=0.95927, top4=1.00000
+[Train][Epoch 9/100][Iter 0/88] lr=0.025000, loss=0.15956, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 20/88] lr=0.025000, loss=0.35819, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 40/88] lr=0.025000, loss=0.17030, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 60/88] lr=0.025000, loss=0.68006, top1=0.84375, top2=1.00000, top4=1.00000
+[Train][Epoch 9/100][Iter 80/88] lr=0.025000, loss=0.20354, top1=0.90625, top2=1.00000, top4=1.00000
+[Info] epoch_time=5051.4s
+[Val][Epoch 9/100] loss=0.25872, top1=0.89607, top2=0.98315, top4=1.00000
+[Train][Epoch 10/100][Iter 0/88] lr=0.025000, loss=0.23344, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 20/88] lr=0.025000, loss=0.08468, top1=0.96875, top2=0.96875, top4=1.00000
+[Train][Epoch 10/100][Iter 40/88] lr=0.025000, loss=0.14702, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 60/88] lr=0.025000, loss=0.23186, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 10/100][Iter 80/88] lr=0.025000, loss=0.13710, top1=0.96875, top2=1.00000, top4=1.00000
+[Info] epoch_time=5017.3s
+[Val][Epoch 10/100] loss=0.31919, top1=0.88904, top2=0.98596, top4=1.00000
+[Train][Epoch 11/100][Iter 0/88] lr=0.025000, loss=0.05286, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 20/88] lr=0.025000, loss=0.06966, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 40/88] lr=0.025000, loss=0.09206, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 60/88] lr=0.025000, loss=0.06376, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 11/100][Iter 80/88] lr=0.025000, loss=0.47308, top1=0.81250, top2=1.00000, top4=1.00000
+[Info] epoch_time=5004.1s
+[Val][Epoch 11/100] loss=0.86674, top1=0.77669, top2=0.87360, top4=1.00000
+[Train][Epoch 12/100][Iter 0/88] lr=0.025000, loss=0.05607, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 20/88] lr=0.025000, loss=0.22360, top1=0.90625, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 40/88] lr=0.025000, loss=0.17044, top1=0.96875, top2=1.00000, top4=1.00000
+[Train][Epoch 12/100][Iter 60/88] lr=0.025000, loss=0.16240, top1=0.93750, top2=1.00000, top4=1.00000

@@ -1,0 +1,66 @@
+[Info] device: cuda
+[Info] cfg saved: /mnt/synology/wen.zhou/2026.05/Coordinate_Attention/output/run_config.json
+[Info] coord_attn: ON | coord_reduction: 32
+[Info] agent_attn: ON | agent_bias: ON | agent_tokens: 16 | heads: 8
+[Info] attn_order: coord_then_agent
+[Train][Epoch 1/100][Iter 0/178] lr=0.025000, loss=1.62967, top1=0.25000, top2=0.56250, top4=1.00000
+[Train][Epoch 1/100][Iter 1/178] lr=0.025000, loss=4.09985, top1=0.37500, top2=0.56250, top4=1.00000
+[Train][Epoch 1/100][Iter 2/178] lr=0.025000, loss=2.55583, top1=0.12500, top2=0.25000, top4=1.00000
+[Train][Epoch 1/100][Iter 3/178] lr=0.025000, loss=2.80585, top1=0.50000, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 4/178] lr=0.025000, loss=4.17498, top1=0.50000, top2=0.56250, top4=1.00000
+[Train][Epoch 1/100][Iter 5/178] lr=0.025000, loss=0.35549, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 6/178] lr=0.025000, loss=0.73736, top1=0.87500, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 7/178] lr=0.025000, loss=0.52900, top1=0.87500, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 8/178] lr=0.025000, loss=1.57634, top1=0.68750, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 9/178] lr=0.025000, loss=1.14144, top1=0.62500, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 10/178] lr=0.025000, loss=0.12437, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 11/178] lr=0.025000, loss=1.85056, top1=0.75000, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 12/178] lr=0.025000, loss=3.96508, top1=0.62500, top2=0.68750, top4=1.00000
+[Train][Epoch 1/100][Iter 13/178] lr=0.025000, loss=2.84868, top1=0.75000, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 14/178] lr=0.025000, loss=0.63185, top1=0.81250, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 15/178] lr=0.025000, loss=5.98305, top1=0.37500, top2=0.56250, top4=1.00000
+[Train][Epoch 1/100][Iter 16/178] lr=0.025000, loss=1.40899, top1=0.56250, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 17/178] lr=0.025000, loss=2.03153, top1=0.50000, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 18/178] lr=0.025000, loss=2.83399, top1=0.37500, top2=0.56250, top4=1.00000
+[Train][Epoch 1/100][Iter 19/178] lr=0.025000, loss=2.74463, top1=0.50000, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 20/178] lr=0.025000, loss=0.27218, top1=0.87500, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 21/178] lr=0.025000, loss=2.59285, top1=0.62500, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 22/178] lr=0.025000, loss=1.44063, top1=0.68750, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 23/178] lr=0.025000, loss=10.03889, top1=0.31250, top2=0.50000, top4=1.00000
+[Train][Epoch 1/100][Iter 24/178] lr=0.025000, loss=0.76059, top1=0.75000, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 25/178] lr=0.025000, loss=4.86706, top1=0.56250, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 26/178] lr=0.025000, loss=2.86034, top1=0.56250, top2=0.68750, top4=1.00000
+[Train][Epoch 1/100][Iter 27/178] lr=0.025000, loss=1.45537, top1=0.68750, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 28/178] lr=0.025000, loss=1.58192, top1=0.50000, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 29/178] lr=0.025000, loss=2.01843, top1=0.43750, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 30/178] lr=0.025000, loss=1.93906, top1=0.62500, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 31/178] lr=0.025000, loss=3.37264, top1=0.43750, top2=0.62500, top4=1.00000
+[Train][Epoch 1/100][Iter 32/178] lr=0.025000, loss=0.92613, top1=0.75000, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 33/178] lr=0.025000, loss=1.40599, top1=0.62500, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 34/178] lr=0.025000, loss=3.38077, top1=0.31250, top2=0.56250, top4=1.00000
+[Train][Epoch 1/100][Iter 35/178] lr=0.025000, loss=1.86136, top1=0.31250, top2=0.68750, top4=1.00000
+[Train][Epoch 1/100][Iter 36/178] lr=0.025000, loss=1.42992, top1=0.56250, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 37/178] lr=0.025000, loss=2.02087, top1=0.62500, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 38/178] lr=0.025000, loss=1.55976, top1=0.50000, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 39/178] lr=0.025000, loss=1.78799, top1=0.62500, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 40/178] lr=0.025000, loss=2.11717, top1=0.56250, top2=0.62500, top4=1.00000
+[Train][Epoch 1/100][Iter 41/178] lr=0.025000, loss=0.84030, top1=0.56250, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 42/178] lr=0.025000, loss=2.59148, top1=0.50000, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 43/178] lr=0.025000, loss=1.39564, top1=0.62500, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 44/178] lr=0.025000, loss=1.23630, top1=0.68750, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 45/178] lr=0.025000, loss=0.72312, top1=0.68750, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 46/178] lr=0.025000, loss=3.43303, top1=0.56250, top2=0.68750, top4=1.00000
+[Train][Epoch 1/100][Iter 47/178] lr=0.025000, loss=2.34998, top1=0.62500, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 48/178] lr=0.025000, loss=1.35934, top1=0.75000, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 49/178] lr=0.025000, loss=2.06665, top1=0.75000, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 50/178] lr=0.025000, loss=1.22322, top1=0.75000, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 51/178] lr=0.025000, loss=1.19930, top1=0.75000, top2=0.93750, top4=1.00000
+[Train][Epoch 1/100][Iter 52/178] lr=0.025000, loss=2.88760, top1=0.68750, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 53/178] lr=0.025000, loss=0.67888, top1=0.93750, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 54/178] lr=0.025000, loss=2.99897, top1=0.56250, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 55/178] lr=0.025000, loss=0.69261, top1=0.75000, top2=1.00000, top4=1.00000
+[Train][Epoch 1/100][Iter 56/178] lr=0.025000, loss=2.73603, top1=0.62500, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 57/178] lr=0.025000, loss=4.59060, top1=0.50000, top2=0.75000, top4=1.00000
+[Train][Epoch 1/100][Iter 58/178] lr=0.025000, loss=2.48675, top1=0.43750, top2=0.81250, top4=1.00000
+[Train][Epoch 1/100][Iter 59/178] lr=0.025000, loss=1.02960, top1=0.81250, top2=0.87500, top4=1.00000
+[Train][Epoch 1/100][Iter 60/178] lr=0.025000, loss=1.23267, top1=0.75000, top2=0.93750, top4=1.00000

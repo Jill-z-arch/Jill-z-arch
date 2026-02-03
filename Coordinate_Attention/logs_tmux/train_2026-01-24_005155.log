@@ -1,0 +1,21 @@
+[Info] device: cuda
+[Info] cfg saved: /tmp/output_torch/run_config.json
+[Info] coord_attn: ON | coord_reduction: 32
+[Info] agent_attn: ON | agent_bias: ON | agent_tokens: 16 | heads: 8
+[Info] attn_order: coord_then_agent
+Traceback (most recent call last):
+  File "/mnt/synology/wen.zhou/2026.05/Coordinate_Attention/train_Coordinate_Attention.py", line 734, in <module>
+    main()
+  File "/mnt/synology/wen.zhou/2026.05/Coordinate_Attention/train_Coordinate_Attention.py", line 673, in main
+    for it, (images, targets) in enumerate(train_loader):
+  File "/home/wen.zhou/miniforge3/envs/py310_local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/wen.zhou/miniforge3/envs/py310_local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/wen.zhou/miniforge3/envs/py310_local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/wen.zhou/miniforge3/envs/py310_local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/mnt/synology/wen.zhou/2026.05/Coordinate_Attention/train_Coordinate_Attention.py", line 457, in __getitem__
+    raise RuntimeError(
+RuntimeError: Too many broken/unreadable images encountered. Check bad_images.txt and verify image_root / txt path format.
